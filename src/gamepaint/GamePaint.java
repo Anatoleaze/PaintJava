@@ -5,6 +5,11 @@
  */
 package gamepaint;
 
+import gamepaint.View.PaintGUI;
+import gamepaint.Tools.LoopGame;
+import gamepaint.Controller.ViewController;
+import gamepaint.Model.ShapeModel;
+
 /**
  *
  * @author 21507100
@@ -16,8 +21,10 @@ public class GamePaint {
      */
     public static void main(String[] args) {
         ShapeModel s=new ShapeModel();
-        ViewContainer v=new ViewContainer(s);
+        LoopGame l= new LoopGame(20);
+        ViewController v=new ViewController(s,l);
         PaintGUI p=new PaintGUI(v);
+        
     }
     
 }
