@@ -1,0 +1,54 @@
+# ---- Java ----
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Exclure les fichiers temporaires de compilation
+*.ctxt
+*.class
+*.swp
+*~
+
+# Fichiers de configuration Eclipse/IntelliJ (si jamais utilisés)
+.project
+.classpath
+.settings/
+.idea/
+*.iml
+
+# ---- NetBeans ----
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.netbeans/
+*.orig
+
+# ---- Maven/Gradle ----
+target/
+build/
+out/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-cache/
+
+# ---- Autres ----
+.DS_Store
+Thumbs.db
+
+# OS spécifiques
+# macOS
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
