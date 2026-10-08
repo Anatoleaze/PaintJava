@@ -2,11 +2,6 @@
 
 ![Aperçu du jeu](image/GamePaint.png)
 
-## 📌 Nom du projet
-**PaintJava**
-
----
-
 ## 📄 Description courte
 Jeu de dessin stratégique développé en Java où l'objectif est de recouvrir l'ensemble des points affichés à l'écran en utilisant le moins de formes géométriques possible. Grâce à une interface interactive, le joueur peut créer, déplacer, redimensionner et supprimer des rectangles et des cercles pour optimiser son score.
 
